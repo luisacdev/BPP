@@ -28,7 +28,7 @@ filename = input("Type filename: ")
 try:
     print('-1- Opening file')
     fileContent = open(filename, "r")
-    prit('-2- File opened')
+    print('-2- File opened')
 
 except (OSError, IOError) as e:
     print(e, ' | ', type(e))
